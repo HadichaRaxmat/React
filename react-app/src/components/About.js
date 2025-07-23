@@ -6,17 +6,17 @@ const About = () => {
   return (
     <div className="bg-[#fffce0] font-sans overflow-x-hidden">
       <Header />
-      <main className="pt-36 max-w-5xl mx-auto text-center px-4 text-lg">
-        <h1 className="text-3xl font-bold mb-8">SAG haqida</h1>
+      <main className="mt-1 pt-40 w-full mx-auto text-center px-20 text-lg">
+        <h1 className="md:text-4xl pb-1 text-xl font-semibold mb-4 text-center">SAG haqida</h1>
 
         <img
           src="https://sag-ashy.vercel.app/assets/sag-kQzYaMs2.jpeg"
           alt="SAG Building"
-          className="w-full h-[380px] object-cover my-12 rounded-md"
+          className="w-full lg:h-96 mx-auto mb-6 mt-12"
         />
 
-        <p className="text-2xl text-gray-700 font-semibold my-20">
-          Bizning missiyamiz — bilimlarning inson uchun qimmatini,
+        <p className="text-3xl text-gray-700 font-semibold my-20">
+          Bizning missiyamiz — bilimlarning inson uchun qimmatini, <br />
           ahamiyatini va haqiqiy rolini namoyish etish.
         </p>
 
