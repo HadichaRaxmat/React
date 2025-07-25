@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className="bg-[#fffce0] font-sans overflow-x-hidden">
       <Header />
-      <main className="mt-1 pt-40 w-full mx-auto text-center px-20 text-lg">
-        <h1 className="md:text-4xl pb-1 text-xl font-semibold mb-4 text-center">SAG haqida</h1>
+      <main className="pt-[145px] w-full mx-auto text-center px-20 text-lg">
+        <h1 className="md:text-4xl text-xl font-semibold mb-4 text-center">SAG haqida</h1>
 
         <img
           src="https://sag-ashy.vercel.app/assets/sag-kQzYaMs2.jpeg"
@@ -15,27 +15,35 @@ const About = () => {
           className="w-full lg:h-96 mx-auto mb-6 mt-12"
         />
 
-        <p className="text-3xl text-gray-700 font-semibold my-20">
+        <p className="text-3xl text-gray-700 font-semibold mt-[85px] mb-20">
           Bizning missiyamiz — bilimlarning inson uchun qimmatini, <br />
           ahamiyatini va haqiqiy rolini namoyish etish.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-10 items-start mb-24">
+
+        <div className="flex flex-col md:flex-row gap-6 mb-24 items-start">
           <img
             src="https://sag-ashy.vercel.app/assets/sagAbout-C6NN6jd4.png"
             alt="SAG Interior"
-            className="w-full max-w-md h-[370px] object-cover rounded-md"
+            className="w-full lg:h-[382px] md:w-1/3"
           />
-          <div className="text-left text-[17.5px] leading-relaxed text-gray-700">
-            <h2 className="text-xl font-semibold mb-4">SAG haqida qisqacha</h2>
-            <p>
-              SAG qamqor kompaniyasi 2000-yilda asoslangan bo'lib...<br />
-              kompaniyamiz MDH davlatlari ichida...<br />
-              xalqaro standartlarga to'liq javob beruvchi bilimlarimiz...<br />
-              15 ga yaqin mamlakatlarda ham o'z mijozlariga xizmat ko'rsatmoqda.
-            </p>
+          <div className="w-full md:w-2/3 text-gray-700 text-base md:text-lg">
+            <div className="max-w-[721px]">
+              <h2 className="text-left font-semibold md:text-2xl text-xl pb-4">
+                SAG haqida qisqacha
+              </h2>
+              <p className="text-left max-w-[721px] leading-relaxed">
+                 SAG qamqor kompaniyasi 2000-yilda asoslangan bo'lib, ushbu o'tgan uzog' yillik davrlar
+                 davomida mijozlar uchun xizmat ko'rsatib kelmoqda. Kompaniyamiz MDH davlatlari ichida
+                 bilim ishlab chiqarish quvvati bo'yicha mutlaq yetakchilik qilmoqda. Shuningdek, xalqaro
+                 standartlarga to'liq javob beruvchi bilimlarimiz dunyoning 15 ga yaqin mamlakatlarda ham
+                 o'z mijozlariga xizmat ko'rsatmoqda.
+               </p>
+            </div>
           </div>
         </div>
+
+
 
         <div className="bg-[#cca57a] text-white w-full px-6 py-16">
           <div className="max-w-[1330px] mx-auto">
